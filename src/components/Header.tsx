@@ -1,6 +1,5 @@
 "use client"
 import React, { useState } from "react";
-import Image from "next/image";
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -28,7 +27,7 @@ const Header = () => {
       <div className="bg-gray-100 flex justify-between items-center px-4 md:px-6 py-4">
         {/* Logo */}
         <div className="flex items-center space-x-2 lg:ml-44">
-          <span className="text-teal-600 text-2xl md:text-3xl"><Image src="/icons/logo.jpg" alt="logo" width={30} height={30} /></span>
+          <span className="text-teal-600 text-2xl md:text-3xl"><img src="/icons/logo.jpg" alt="logo" width={30} height={30} /></span>
           <h1 className="text-lg md:text-xl font-bold">Comforty</h1>
         </div>
 
