@@ -89,9 +89,9 @@ const Header = () => {
           <a href="#" className="block text-gray-700 hover:text-teal-600">
             About
           </a>
-          <button className="flex items-center bg-white border border-gray-300 px-3 py-1 rounded-md w-full">
+          <button className="flex items-center bg-white border border-gray-300 px-3 py-1 rounded-md w-full text-black">
             🛒 Cart
-            <span className="ml-2 bg-teal-600 text-white text-xs px-2 rounded-full">
+            <span className="ml-2 bg-teal-600 text-black text-xs px-2 rounded-full">
               2
             </span>
           </button>
