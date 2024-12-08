@@ -28,7 +28,7 @@ const Header = () => {
         {/* Logo */}
         <div className="flex items-center space-x-2 lg:ml-44">
           <span className="text-teal-600 text-2xl md:text-3xl"><img src="/icons/logo.jpg" alt="logo" width={30} height={30} /></span>
-          <h1 className="text-lg md:text-xl font-bold">Comforty</h1>
+          <h1 className="text-lg md:text-xl font-bold text-black">Comforty</h1>
         </div>
 
         <button
@@ -59,13 +59,13 @@ const Header = () => {
 
         {/* Cart & Contact */}
         <div className="hidden md:flex items-center space-x-4 lg:mr-44">
-          <button className="flex items-center bg-white border border-gray-300 px-3 py-1 rounded-md">
+          <button className="flex items-center bg-white border border-gray-300 px-3 py-1 rounded-md text-black">
             🛒 Cart
-            <span className="ml-2 bg-teal-600 text-white text-xs px-2 rounded-full">
+            <span className="ml-2 bg-teal-600 text-white text-xs px-2 rounded-full ">
               2
             </span>
           </button>
-          <p className="text-sm md:text-base">
+          <p className="text-sm md:text-base text-black">
             Contact: <span className="font-bold">(808) 555-0111</span>
           </p>
         </div>

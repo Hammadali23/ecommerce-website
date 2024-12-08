@@ -24,7 +24,7 @@ const categories = [
 export default function TopCategories() {
   return (
     <div className="my-8 lg:pl-16 lg:pr-16 p-4">
-      <h2 className="text-2xl font-bold mb-8">Top Categories</h2>
+      <h2 className="text-2xl font-bold mb-8 text-black">Top Categories</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {categories.map((category) => (
           <CategoryCard key={category.id} category={category} />

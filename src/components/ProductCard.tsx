@@ -34,7 +34,7 @@ export default function ProductCard({ product }: { product: Product }) {
 
       {/* Product Info */}
       <div className="mt-4 text-center">
-        <h3 className="text-lg  text-start">{product.name}</h3>
+        <h3 className="text-lg  text-start text-black">{product.name}</h3>
         <div className="text-md text-gray-600 mt-1 text-start font-bold">
           {product.onSale && product.originalPrice ? (
             <>

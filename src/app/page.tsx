@@ -3,7 +3,8 @@ import TopCategories from "../components/TopCategories";
 import ProductCollage from "@/components/ProductCollage";
 export default function Home() {
   return (
-    <div className="py-16 lg:ml-32 lg:mr-32 md:px-8 lg:px-16 pt-0 ">
+    <div className="bg-white">
+    <div className=" py-16 lg:ml-32 lg:mr-32 md:px-8 lg:px-16 pt-0 ">
       <div className=" bg-gray-200  max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center  p-8 lg:rounded-xl">
         {/* Left Content */}
         <div className="space-y-4">
@@ -52,6 +53,7 @@ export default function Home() {
       </div>
  </div>
  
+ </div>
  </div>
     
   );
