@@ -38,13 +38,13 @@ export default function ProductCard({ product }: { product: Product }) {
         <div className="text-md text-gray-600 mt-1 text-start font-bold">
           {product.onSale && product.originalPrice ? (
             <>
-              <span className="line-through mr-2 ">${product.originalPrice}</span>
-              <span className="text-red-500">${product.price}</span>
+              <span className=" mr-2 ">${product.originalPrice}</span>
+              <span className="line-through text-gray-500">${product.price}</span>
             </>
           ) : (
             <span>${product.price}</span>
           )}
-        </div>
+          </div>
       </div>
     </div>
   );

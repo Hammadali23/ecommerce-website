@@ -11,8 +11,8 @@ const products = [
   {
     id: 2,
     name: 'Library Stool Chair',
-    price: 20,
-    originalPrice: 30,
+    price: 30,
+    originalPrice: 20,
     image: '/icons/chairproduct2.jpeg',
     onSale: true,
   },

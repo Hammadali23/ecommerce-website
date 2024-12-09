@@ -1,6 +1,7 @@
 import Feature from "../components/FeatureProduct"
 import TopCategories from "../components/TopCategories";
-import ProductCollage from "@/components/ProductCollage";
+import ProductCollage from "../components/ProductCollage";
+import Ourproduct from "../components/Ourproduct"
 export default function Home() {
   return (
     <div className="bg-white">
@@ -50,6 +51,9 @@ export default function Home() {
       </div>
       <div>
         <ProductCollage/>
+      </div>
+      <div>
+        <Ourproduct/>
       </div>
  </div>
  
