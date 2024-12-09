@@ -32,7 +32,7 @@ const products = [
 
 export default function FeaturedProducts() {
   return (
-    <div className="lg:ml-16 lg:mr-16">
+    <div className="lg:ml-16 lg:mr-16 ">
       <h2 className="text-2xl font-bold mb-4 lg:ml-2 p-2 text-black ">Featured Products</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.map((product) => (

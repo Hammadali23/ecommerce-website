@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="bg-white">
     <div className=" py-16 lg:ml-32 lg:mr-32 md:px-8 lg:px-16 pt-0 ">
-      <div className=" bg-gray-200  max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center  p-8 lg:rounded-xl">
+      <div className=" bg-gray-200 lg:ml mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center  lg:p-28 p-12 lg:rounded-xl">
         {/* Left Content */}
         <div className="space-y-4">
           <p className="text-sm text-gray-500 uppercase">Welcome to Chairy</p>
@@ -30,9 +30,9 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="bg-white lg:-ml-20 lg:-mr-20">
-    <div className="bg-white py-16">
-      <div className=" max-w-6xl mx-auto  flex flex-wrap  items-center space-x-2 lg:space-x-16 lg:pl-6">
+      <div className="bg-white lg:-ml-20 lg:-mr-20 p-4">
+    <div className="bg-white py-16 lg:pl-24 ">
+      <div className=" max-w-6xl   flex flex-wrap  items-center space-x-2 lg:space-x-16  ">
         {/* Partner Logos */}
         <img src="/icons/zapier.png" alt="Zapier" className="h-10 ml-2" />
         <img src="/icons/pipedrive.png" alt="Pipedrive" className="h-8" />

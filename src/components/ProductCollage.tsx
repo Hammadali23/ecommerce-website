@@ -6,7 +6,7 @@ export default function ProductCollage() {
           <img
             src="/icons/chairproduct3.jpeg"
             alt="Large Chair"
-            className="w-full h-full object-cove "
+            className="w-full h-full object-cover  "
           />
           {/* Vertical Text */}
           <div className="absolute -left-52 top-1/2 transform -rotate-90 text-2xl text-gray-700">
