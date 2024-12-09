@@ -66,7 +66,7 @@ const Header = () => {
             </span>
           </button>
           <p className="text-sm md:text-base text-black">
-            Contact: <span className="font-bold">(808) 555-0111</span>
+            Contact: <span className="font-bold text-black">(808) 555-0111</span>
           </p>
         </div>
       </div>
