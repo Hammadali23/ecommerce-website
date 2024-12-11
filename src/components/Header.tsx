@@ -54,7 +54,7 @@ const Header = () => {
         <div className="hidden md:flex items-center space-x-4 lg:mr-44">
           <button className="flex items-center bg-white border border-gray-300 px-3 py-1 rounded-md text-black">
             🛒 Cart
-            <span className="ml-2 bg-teal-600 text-black text-xs px-2 rounded-full ">
+            <span className="ml-2 bg-teal-600 text-white text-xs px-2 rounded-full ">
               2
             </span>
           </button>
