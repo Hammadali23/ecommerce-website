@@ -10,7 +10,6 @@ const Header = () => {
 
   return (
     <div className="w-full">
-      {/* Top Bar */}
       <div
         className="text-white flex justify-between items-center px-4 md:px-6 py-2 text-xs md:text-sm"
         style={{ backgroundColor: "#272343" }}
