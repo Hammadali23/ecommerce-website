@@ -34,7 +34,7 @@ export default function Home() {
     <div className="bg-white py-16 lg:pl-24 ">
       <div className=" max-w-6xl   flex flex-wrap  items-center space-x-2 lg:space-x-16  ">
         {/* Partner Logos */}
-        <img src="/icons/zapier.png" alt="Zapier" className="h-10 ml-2" />
+        <img src="/icons/zapier.png" alt="Zapier" className="h-10" />
         <img src="/icons/pipedrive.png" alt="Pipedrive" className="h-8" />
         <img src="/icons/cibbank.png" alt="CIB Bank" className="h-16" />
         <img src="/icons/z.png" alt="z" className="h-16" />

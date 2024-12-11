@@ -11,7 +11,10 @@ const Header = () => {
   return (
     <div className="w-full">
       {/* Top Bar */}
-      <div className="text-white flex justify-between items-center px-4 md:px-6 py-2 text-xs md:text-sm" style={{ backgroundColor: '#272343' }}>
+      <div
+        className="text-white flex justify-between items-center px-4 md:px-6 py-2 text-xs md:text-sm"
+        style={{ backgroundColor: "#272343" }}
+      >
         <p className="truncate lg:ml-44">✔️ Free Shipping On All Orders Over $50</p>
         <div className="flex items-center space-x-2 md:space-x-4 lg:mr-44">
           <span>Eng ▼</span>
@@ -28,17 +31,17 @@ const Header = () => {
       <div className="bg-gray-100 flex justify-between items-center px-4 md:px-6 py-4">
         {/* Logo */}
         <div className="flex items-center space-x-2 lg:ml-44">
-  <span className="text-teal-600 text-2xl md:text-3xl">
-    <Image 
-      src="/icons/logo.jpg" 
-      alt="logo" 
-      width={30} 
-      height={30} 
-      priority 
-    />
-  </span>
-  <h1 className="text-lg md:text-xl font-bold text-black">Comforty</h1>
-</div>
+          <span className="text-teal-600 text-2xl md:text-3xl">
+            <Image
+              src="/icons/logo.jpg"
+              alt="logo"
+              width={30}
+              height={30}
+              priority
+            />
+          </span>
+          <h1 className="text-lg md:text-xl font-bold text-black">Comforty</h1>
+        </div>
 
         <button
           className="md:hidden text-teal-600 text-2xl"
@@ -48,36 +51,38 @@ const Header = () => {
           {menuOpen ? "✖" : "☰"}
         </button>
 
-        <div className="hidden md:flex space-x-4 md:space-x-6 text-gray-700 font-medium">
-          <a href="#" className="hover:text-teal-600">
-            Home
-          </a>
-          <a href="#" className="hover:text-teal-600">
-            Shop
-          </a>
-          <a href="#" className="hover:text-teal-600">
-            Product
-          </a>
-          <a href="#" className="hover:text-teal-600">
-            Pages
-          </a>
-          <a href="#" className="hover:text-teal-600">
-            About
-          </a>
-        </div>
-
         {/* Cart & Contact */}
         <div className="hidden md:flex items-center space-x-4 lg:mr-44">
           <button className="flex items-center bg-white border border-gray-300 px-3 py-1 rounded-md text-black">
             🛒 Cart
-            <span className="ml-2 bg-teal-600 text-white text-xs px-2 rounded-full ">
+            <span className="ml-2 bg-teal-600 text-black text-xs px-2 rounded-full ">
               2
             </span>
           </button>
-          <p className="text-sm md:text-base text-black">
+         
+        </div>
+      </div>
+
+      {/* Navigation Links */}
+      <div className="hidden md:flex lg:pl-52 bg-white border-b-2 py-2 text-gray-700 font-medium space-x-4 md:space-x-8">
+        <a href="#" className="hover:text-teal-600">
+          Home
+        </a>
+        <a href="#" className="hover:text-teal-600">
+          Shop
+        </a>
+        <a href="#" className="hover:text-teal-600">
+          Product
+        </a>
+        <a href="#" className="hover:text-teal-600">
+          Pages
+        </a>
+        <a href="#" className="hover:text-teal-600">
+          About
+        </a>
+        <p className="text-sm md:text-base text-black lg:pl-[42%]">
             Contact: <span className="font-bold text-black">(808) 555-0111</span>
           </p>
-        </div>
       </div>
 
       {/* Mobile Navigation */}
@@ -98,13 +103,13 @@ const Header = () => {
           <a href="#" className="block text-gray-700 hover:text-teal-600">
             About
           </a>
-          <button className="flex items-center bg-white border border-gray-300 px-3 py-1 rounded-md w-full text-black">
+          <button className="flex items-center bg-white border border-gray-300 px-3 py-1  rounded-md w-full text-black">
             🛒 Cart
             <span className="ml-2 bg-teal-600 text-black text-xs px-2 rounded-full">
               2
             </span>
           </button>
-          <p className="text-sm">
+          <p className="text-sm text-black">
             Contact: <span className="font-bold">(808) 555-0111</span>
           </p>
         </div>

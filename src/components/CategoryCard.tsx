@@ -16,7 +16,7 @@ type Category = {
         />
   
         {/* Category Info */}
-        <div className=" absolute inset-0 bg-transparent flex-row  lg:pt-64 hover:bg-gray-200 hover:opacity-50 ">
+        <div className=" absolute inset-0 bg-transparent flex-row   lg:pt-64 hover:bg-gray-200 hover:opacity-50 ">
           <div className="text-white bg-black bg-opacity-50 p-2 rounded-lg ">
             <h3 className="text-lg font-semibold">{category.title}</h3>
             <p className="text-sm">{category.productCount} Products</p>
