@@ -1,6 +1,8 @@
-"use client"
+"use client";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
+
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -58,51 +60,50 @@ const Header = () => {
               2
             </span>
           </button>
-         
         </div>
       </div>
 
       {/* Navigation Links */}
       <div className="hidden md:flex lg:pl-52 bg-white border-b-2 py-2 text-gray-700 font-medium space-x-4 md:space-x-8">
-        <a href="#" className="hover:text-teal-600">
+        <Link href="/" className="hover:text-teal-600">
           Home
-        </a>
-        <a href="#" className="hover:text-teal-600">
+        </Link>
+        <Link href="/shop" className="hover:text-teal-600">
           Shop
-        </a>
-        <a href="#" className="hover:text-teal-600">
+        </Link>
+        <Link href="/product" className="hover:text-teal-600">
           Product
-        </a>
-        <a href="#" className="hover:text-teal-600">
+        </Link>
+        <Link href="/pages" className="hover:text-teal-600">
           Pages
-        </a>
-        <a href="#" className="hover:text-teal-600">
+        </Link>
+        <Link href="/about" className="hover:text-teal-600">
           About
-        </a>
+        </Link>
         <p className="text-sm md:text-base text-black lg:pl-[42%]">
-            Contact: <span className="font-bold text-black">(808) 555-0111</span>
-          </p>
+          Contact: <span className="font-bold text-black">(808) 555-0111</span>
+        </p>
       </div>
 
       {/* Mobile Navigation */}
       {menuOpen && (
         <div className="md:hidden bg-gray-100 px-4 py-4 space-y-2">
-          <a href="#" className="block text-gray-700 hover:text-teal-600">
+          <Link href="/" className="block text-gray-700 hover:text-teal-600">
             Home
-          </a>
-          <a href="#" className="block text-gray-700 hover:text-teal-600">
+          </Link>
+          <Link href="/shop" className="block text-gray-700 hover:text-teal-600">
             Shop
-          </a>
-          <a href="#" className="block text-gray-700 hover:text-teal-600">
+          </Link>
+          <Link href="/product" className="block text-gray-700 hover:text-teal-600">
             Product
-          </a>
-          <a href="#" className="block text-gray-700 hover:text-teal-600">
+          </Link>
+          <Link href="/pages" className="block text-gray-700 hover:text-teal-600">
             Pages
-          </a>
-          <a href="#" className="block text-gray-700 hover:text-teal-600">
+          </Link>
+          <Link href="/about" className="block text-gray-700 hover:text-teal-600">
             About
-          </a>
-          <button className="flex items-center bg-white border border-gray-300 px-3 py-1  rounded-md w-full text-black">
+          </Link>
+          <button className="flex items-center bg-white border border-gray-300 px-3 py-1 rounded-md w-full text-black">
             🛒 Cart
             <span className="ml-2 bg-teal-600 text-black text-xs px-2 rounded-full">
               2
