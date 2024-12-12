@@ -1,3 +1,8 @@
+import { FaFacebook } from "react-icons/fa";
+import { GrTwitter } from "react-icons/gr";
+import { FaInstagram } from "react-icons/fa6";
+import { FaPinterest } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
 export default function Footer() {
     return (
       <footer className="bg-white border border-t-2 py-8 pl-6 pr-6">
@@ -15,21 +20,21 @@ export default function Footer() {
                 Vivamus tristique odio sit amet velit semper, eu posuere turpis interdum.
                 Cras egestas purus.
               </p>
-              <div className="flex space-x-4 mt-4">
+              <div className="flex space-x-4 mt-8 text-xl">
                 <a href="#" className="text-gray-500 hover:text-teal-500">
-                  <i className="fab fa-facebook"></i>
+                  <FaFacebook />
                 </a>
                 <a href="#" className="text-gray-500 hover:text-teal-500">
-                  <i className="fab fa-twitter"></i>
+                <GrTwitter />
                 </a>
                 <a href="#" className="text-gray-500 hover:text-teal-500">
-                  <i className="fab fa-instagram"></i>
+                <FaInstagram />
                 </a>
                 <a href="#" className="text-gray-500 hover:text-teal-500">
-                  <i className="fab fa-pinterest"></i>
+                <FaPinterest />
                 </a>
                 <a href="#" className="text-gray-500 hover:text-teal-500">
-                  <i className="fab fa-youtube"></i>
+                <FaYoutube />
                 </a>
               </div>
             </div>
