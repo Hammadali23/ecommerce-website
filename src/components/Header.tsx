@@ -34,7 +34,7 @@ const Header = () => {
         <div className="flex items-center space-x-2 lg:ml-44">
           <span className="text-teal-600 text-2xl md:text-3xl">
             <Image
-              src="/icons/logo.jpg"
+              src="/icons/LogoIcon.png"
               alt="logo"
               width={30}
               height={30}

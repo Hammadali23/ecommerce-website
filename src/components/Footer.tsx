@@ -12,7 +12,7 @@ export default function Footer() {
             <div>
               <h3 className="text-xl font-bold flex items-center space-x-2 mb-4">
                 <span className="text-teal-500">
-                  <img src="/icons/logo.jpg" alt="Comforty Logo" className="h-8 w-8" />
+                  <img src="/icons/LogoIcon.png" alt="Comforty Logo" className="h-8 w-8" />
                 </span>
                 <span className="text-black">Comforty</span>
               </h3>
