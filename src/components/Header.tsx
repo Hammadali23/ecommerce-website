@@ -10,6 +10,10 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
 
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <div className="w-full">
       <div
@@ -88,19 +92,19 @@ const Header = () => {
       {/* Mobile Navigation */}
       {menuOpen && (
         <div className="md:hidden bg-gray-100 px-4 py-4 space-y-2">
-          <Link href="/" className="block text-gray-700 hover:text-teal-600">
+          <Link href="/" onClick={closeMenu} className="block text-gray-700 hover:text-teal-600">
             Home
           </Link>
-          <Link href="/shop" className="block text-gray-700 hover:text-teal-600">
+          <Link href="/shop" onClick={closeMenu} className="block text-gray-700 hover:text-teal-600">
             Shop
           </Link>
-          <Link href="/product" className="block text-gray-700 hover:text-teal-600">
+          <Link href="/product" onClick={closeMenu} className="block text-gray-700 hover:text-teal-600">
             Product
           </Link>
-          <Link href="/pages" className="block text-gray-700 hover:text-teal-600">
+          <Link href="/pages" onClick={closeMenu} className="block text-gray-700 hover:text-teal-600">
             Pages
           </Link>
-          <Link href="/about" className="block text-gray-700 hover:text-teal-600">
+          <Link href="/about" onClick={closeMenu} className="block text-gray-700 hover:text-teal-600">
             About
           </Link>
           <button className="flex items-center bg-white border border-gray-300 px-3 py-1 rounded-md w-full text-black">
