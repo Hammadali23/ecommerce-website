@@ -19,22 +19,22 @@ export default function ProductCollage() {
           <img
             src="/icons/chairproduct4.jpeg"
             alt="Chair 1"
-            className="w-80 h-72 object-cover"
+            className="w-80 h-[100%] object-cover"
           />
           <img
             src="/icons/chairproduct.jpeg"
             alt="Chair 2"
-            className="w-80 h-72 object-cover"
+            className="w-80 h-[100%] object-cover"
           />
           <img
             src="/icons/chairproduct5.jpeg"
             alt="Chair 3"
-            className="w-80 h-72 object-cover"
+            className="w-80  h-[101%] object-cover"
           />
           <img
             src="/icons/chairproduct.jpeg"
             alt="Chair 4"
-            className="w-64 h-72 object-cover"
+            className="w-64  h-[101%] object-cover"
           />
         </div>
       </div>
