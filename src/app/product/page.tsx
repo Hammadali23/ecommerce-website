@@ -129,7 +129,7 @@ const ProductPage = () => {
       </div> 
       <div className="bg-gray-100  pt-2 pb-16 ">
       <div className="mt-16 text-center">
-        <h2 className="text-xl font-bold text-black mb-4">
+        <h2 className="text-2xl font-bold text-black mb-4">
           Or Subscribe To The Newsletter
         </h2>
         <div className="flex justify-center items-center max-w-md mx-auto p-2">
@@ -143,8 +143,8 @@ const ProductPage = () => {
       </div>
 
       {/* Instagram Products Section */}
-      <div className="mt-16 text-center">
-        <h2 className="text-xl font-bold text-black mb-4">
+      <div className="mt-16  text-center">
+        <h2 className="text-3xl font-bold text-black mb-8">
           Follow Products And Discounts On Instagram
         </h2>
         <div className="flex justify-center items-center gap-4 flex-wrap">
