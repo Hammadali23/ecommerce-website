@@ -12,7 +12,7 @@ type Category = {
         <img
           src={category.image}
           alt={category.title}
-          className="w-full lg:h-80 object-cover"
+          className="w-full h-96  object-cover"
         />
   
         {/* Category Info */}

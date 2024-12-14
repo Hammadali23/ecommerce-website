@@ -85,7 +85,7 @@ export default function Ourproduct() {
                 <img
                   src={product.image}
                   alt={product.name}
-                  className="w-full h-80 roun object-cover"
+                  className="w-full lg:h-80 rounded-md object-cover"
                 />
               </div>
               <div className="pt-2">
