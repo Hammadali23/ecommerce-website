@@ -113,7 +113,7 @@ const ProductPage = () => {
             <img
               src={product.image}
               alt={product.name}
-              className="w-full h-64 object-cover rounded-md text-black"
+              className="w-full lg:h-72 lg:object-cover rounded-md text-black"
             />
             <h2 className="text-lg mt-4 text-black">{product.name}</h2>
             <div className="flex items-center mt-2">
