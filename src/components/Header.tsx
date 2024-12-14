@@ -84,7 +84,7 @@ const Header = () => {
         <Link href="/about" className="hover:text-teal-600">
           About
         </Link>
-        <p className="text-sm md:text-base text-black lg:pl-[42%]">
+        <p className="text-sm md:text-base text-black lg:pl-[39%]">
           Contact: <span className="font-bold text-black">(808) 555-0111</span>
         </p>
       </div>
