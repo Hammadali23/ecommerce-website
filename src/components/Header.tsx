@@ -91,7 +91,7 @@ const Header = () => {
 
       {/* Mobile Navigation */}
       {menuOpen && (
-        <div className="md:hidden bg-gray-100 px-4 py-4 space-y-2 text-2xl ">
+        <div className="md:hidden bg-gray-100 px-4 py-4 space-y-2 text-xl">
           <Link href="/" onClick={closeMenu} className="block text-gray-700 hover:text-teal-600">
             Home
           </Link>
