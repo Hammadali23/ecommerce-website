@@ -5,7 +5,7 @@ import { FaPinterest } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 export default function Footer() {
     return (
-      <footer className="bg-white border border-t-2 py-8 pl-6 pr-6">
+      <footer className="bg-white border border-t-2 py-8 pl-6 pr-6 ">
         <div className="container mx-auto px-4 lg:pl-20 lg:pr-20">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           
@@ -84,9 +84,8 @@ export default function Footer() {
           <div className="border-t mt-10 pt-4 flex flex-col lg:flex-row justify-between items-center">
             <p className="text-gray-500 text-sm text-center lg:text-left">
               © 2021 - Blogy - Designed & Developed by <span className="font-bold text-black">Zakirsoft</span></p>
-            <div className="flex space-x-4 mt-4 lg:mt-0">
-              <img src="/icons/paypal.png" alt="PayPal" className="h-8  " />
-              <img src="/icons/american.jpg" alt="PayPal" className="h-8 w-20 " />
+            <div className="flex space-x-4 mt-4 lg:mt-0 ">
+              <img src="/icons/Logos.png" alt="PayPal" className="h-8  filter grayscale" /> 
             </div>
           </div>
         </div>
