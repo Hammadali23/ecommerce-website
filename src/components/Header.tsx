@@ -68,7 +68,7 @@ const Header = () => {
       </div>
 
       {/* Navigation Links */}
-      <div className="hidden md:flex lg:pl-52 bg-white border-b-2 py-2 text-gray-700 font-medium space-x-4 md:space-x-8">
+      <div className="hidden md:flex lg:pl-52 bg-white border-b-2 py-2 text-gray-700 font-medium space-x-4 md:space-x-8 text-lg">
         <Link href="/" className="hover:text-teal-600">
           Home
         </Link>
@@ -91,7 +91,7 @@ const Header = () => {
 
       {/* Mobile Navigation */}
       {menuOpen && (
-        <div className="md:hidden bg-gray-100 px-4 py-4 space-y-2">
+        <div className="md:hidden bg-gray-100 px-4 py-4 space-y-2 text-2xl ">
           <Link href="/" onClick={closeMenu} className="block text-gray-700 hover:text-teal-600">
             Home
           </Link>
