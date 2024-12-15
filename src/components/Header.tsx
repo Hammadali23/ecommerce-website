@@ -68,7 +68,7 @@ const Header = () => {
       </div>
 
       {/* Navigation Links */}
-      <div className="hidden md:flex lg:pl-52 bg-white border-b-2 py-2 text-gray-700 font-medium space-x-4 md:space-x-8 text-lg">
+      <div className=" hidden md:flex lg:pl-52 bg-white border-b-2 py-2 text-gray-700 font-medium space-x-4 md:space-x-8 text-lg">
         <Link href="/" className="hover:text-teal-600">
           Home
         </Link>
@@ -83,6 +83,9 @@ const Header = () => {
         </Link>
         <Link href="/about" className="hover:text-teal-600">
           About
+        </Link>
+        <Link href="/contactUs" className="hover:text-teal-600">
+          Contact Us
         </Link>
         <p className="text-sm md:text-base text-black lg:pl-[40%]">
           Contact: <span className="font-bold text-black">(808) 555-0111</span>
