@@ -26,7 +26,7 @@ export default function About() {
 
       {/* Cards Section */}
       <div className="lg:pl-52 lg:pr-52 py-12 px-4 bg-white">
-        <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-8">
+        <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-10">
           What Makes Our Brand Different
         </h2>
 
@@ -38,7 +38,7 @@ export default function About() {
               <i className="fa-solid fa-truck text-4xl"></i>
             </div>
             <h3 className="font-semibold text-lg text-cyan-700">Next day as standard</h3>
-            <p className="text-gray-500 text-sm mt-2">
+            <p className="text-cyan-800 text-sm mt-2">
               Order before 3pm and get your order the next day as standard.
             </p>
           </div>
@@ -50,7 +50,7 @@ export default function About() {
               <i className="fa-solid fa-check-circle text-4xl"></i>
             </div>
             <h3 className="font-semibold text-lg text-cyan-800">Made by true artisans</h3>
-            <p className="text-gray-500 text-sm mt-2">
+            <p className="text-cyan-800 text-sm mt-2">
               Handmade crafted goods made with real passion and craftsmanship.
             </p>
           </div>
@@ -62,7 +62,7 @@ export default function About() {
               <i className="fa-solid fa-tags text-4xl"></i>
             </div>
             <h3 className="font-semibold text-lg text-cyan-800">Unbeatable prices</h3>
-            <p className="text-gray-500 text-sm mt-2">
+            <p className="text-cyan-800 text-sm mt-2">
               For our materials and quality you won’t find better prices anywhere.
             </p>
           </div>
@@ -74,7 +74,7 @@ export default function About() {
               <i className="fa-solid fa-seedling text-4xl"></i>
             </div>
             <h3 className="font-semibold text-lg text-cyan-800">Recycled packaging</h3>
-            <p className="text-gray-500 text-sm mt-2">
+            <p className="text-cyan-800 text-sm mt-2">
               We use 100% recycled to ensure our footprint is more manageable.
             </p>
           </div>
