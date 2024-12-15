@@ -78,6 +78,48 @@ export default function About() {
               We use 100% recycled to ensure our footprint is more manageable.
             </p>
           </div>
+          <div>
+      {/* Section Heading */}
+      <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
+        Our Popular Products
+      </h2>
+
+      {/* Product Grid */}
+      <div className="grid grid-cols-1  gap-8">
+        {/* Product 1 */}
+        <div className="flex flex-col">
+          <img
+            src="/icons/popularsofa.jpeg"
+            alt="The Poplar suede sofa"
+            className="w-full h-48 object-cover mb-4 rounded-lg"
+          />
+          <h3 className="text-lg font-medium text-gray-800">The Poplar suede sofa</h3>
+          <p className="text-gray-600">$99.00</p>
+        </div>
+
+        {/* Product 2 */}
+        <div className="flex flex-col">
+          <img
+            src="/icons/dandychair.jpeg"
+            alt="The Dandy chair"
+            className="w-full h-72 object-cover mb-4 rounded-lg"
+          />
+          <h3 className="text-lg font-medium text-gray-800">The Dandy chair</h3>
+          <p className="text-gray-600">$99.00</p>
+        </div>
+
+        {/* Product 3 */}
+        <div className="flex flex-col">
+          <img
+            src="/icons/dandychair2.jpeg"
+            alt="The Dandy chair"
+            className="w-full h-64 object-cover mb-4 rounded-lg"
+          />
+          <h3 className="text-lg font-medium text-gray-800">The Dandy chair</h3>
+          <p className="text-gray-600">$99.00</p>
+        </div>
+      </div>
+    </div>
         </div>
       </div>
     </div>
