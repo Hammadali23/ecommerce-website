@@ -111,7 +111,7 @@ const Header = () => {
             About
           </Link>
           <Link href="/contactUs" onClick={closeMenu} className="block text-gray-700 hover:text-teal-600">
-            ContacttUs
+            Contact Us
           </Link>
           <button className="flex items-center bg-white border border-gray-300 px-3 py-1 rounded-md w-full text-black">
             🛒 Cart
