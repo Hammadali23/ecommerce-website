@@ -70,44 +70,46 @@ export default function About() {
       </div>
 
       {/* Our Popular Products */}
-      <div className="lg:pl-52 lg:pr-52 py-12 px-4 bg-white">
-        <h2 className="text-2xl mt-8 font-bold text-gray-900 mb-8">Our Popular Products</h2>
+<div className="lg:pl-52 lg:pr-52 py-12 px-4 bg-white">
+  <h2 className="text-2xl  font-bold text-gray-900 mb-8">Our Popular Products</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {/* Product 1 */}
-          <div className="flex flex-col lg:col-span-2">
-            <img
-              src="/icons/popularsofa.jpeg"
-              alt="The Poplar suede sofa"
-              className="lg:w-[75%] lg:h-72 object-cover mb-4 rounded-lg"
-            />
-            <h3 className="text-lg font-medium text-gray-800 ">The Poplar suede sofa</h3>
-            <p className="text-gray-600">$99.00</p>
-          </div>
-
-          {/* Product 2 */}
-          <div className="flex flex-col">
-            <img
-              src="/icons/dandychair.jpeg"
-              alt="The Dandy chair"
-              className="lg:w-60 lg:-ml-44 lg:h-72 object-cover mb-4 rounded-lg"
-            />
-            <h3 className="text-lg font-medium text-gray-800 lg:-ml-44">The Dandy chair</h3>
-            <p className="text-gray-600 lg:-ml-44">$99.00</p>
-          </div>
-
-          {/* Product 3 */}
-          <div className="flex flex-col">
-            <img
-              src="/icons/dandychair2.jpeg"
-              alt="The Dandy chair"
-              className="lg:w-60 lg:h-72  object-cover mb-4 rounded-lg"
-            />
-            <h3 className="text-lg font-medium text-gray-800">The Dandy chair</h3>
-            <p className="text-gray-600">$99.00</p>
-          </div>
-        </div>
-      </div>
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    {/* Product 1 */}
+    <div className="flex flex-col">
+      <img
+        src="/icons/popularsofa.jpeg"
+        alt="The Poplar suede sofa"
+        className="lg:w-full lg:h-72 object-cover mb-4 rounded-lg"
+      />
+      <h3 className="text-lg font-medium text-gray-800">The Poplar suede sofa</h3>
+      <p className="text-gray-600">$99.00</p>
     </div>
+
+    {/* Product 2 */}
+    <div className="flex flex-col">
+      <img
+        src="/icons/dandychair.jpeg"
+        alt="The Dandy chair"
+        className="lg:w-60 lg:h-72 object-cover mb-4 lg:ml-52 rounded-lg"
+      />
+      <h3 className="text-lg font-medium text-gray-800 lg:ml-52">The Dandy chair</h3>
+      <p className="text-gray-600 lg:ml-52">$99.00</p>
+    </div>
+
+    {/* Product 3 */}
+    <div className="flex flex-col">
+      <img
+        src="/icons/dandychair2.jpeg"
+        alt="The Dandy chair"
+        className="lg:w-60 lg:h-72 object-cover mb-4 lg:ml-28 rounded-lg"
+      />
+      <h3 className="text-lg font-medium text-gray-800 lg:ml-28">The Dandy chair</h3>
+      <p className="text-gray-600 lg:ml-28">$99.00</p>
+    </div>
+  </div>
+</div>
+
+      </div>
+    
   );
 }
