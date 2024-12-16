@@ -86,7 +86,7 @@ export default function contactUs(){
     </div>
   </div>
   <div>
-  <div className="bg-gray-100 py-16 lg:ml-48 lg:mr-44 mt-12">
+  <div className="bg-gray-100 py-20 lg:ml-48 lg:mr-44 mt-12">
   <div className="max-w-5xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-28 text-center">
    
   <div className="flex items-center space-x-4 justify-center">
