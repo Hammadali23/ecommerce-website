@@ -33,10 +33,7 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Card 1 */}
           <div className="bg-gray-50 p-6 text-center rounded-lg shadow">
-            <div className="mb-4">
-              {/* Icon */}
-              <i className="fa-solid fa-truck text-4xl"></i>
-            </div>
+            <i className="fa-solid fa-truck text-4xl mb-4 text-cyan-800"></i>
             <h3 className="font-semibold text-lg text-cyan-700">Next day as standard</h3>
             <p className="text-cyan-800 text-sm mt-2">
               Order before 3pm and get your order the next day as standard.
@@ -45,10 +42,7 @@ export default function About() {
 
           {/* Card 2 */}
           <div className="bg-gray-50 p-6 text-center rounded-lg shadow">
-            <div className="text-cyan-800 mb-4">
-              {/* Icon */}
-              <i className="fa-solid fa-check-circle text-4xl"></i>
-            </div>
+            <i className="fa-solid fa-check-circle text-4xl mb-4 text-cyan-800"></i>
             <h3 className="font-semibold text-lg text-cyan-800">Made by true artisans</h3>
             <p className="text-cyan-800 text-sm mt-2">
               Handmade crafted goods made with real passion and craftsmanship.
@@ -57,10 +51,7 @@ export default function About() {
 
           {/* Card 3 */}
           <div className="bg-gray-50 p-6 text-center rounded-lg shadow">
-            <div className="text-cyan-800 mb-4">
-              {/* Icon */}
-              <i className="fa-solid fa-tags text-4xl"></i>
-            </div>
+            <i className="fa-solid fa-tags text-4xl mb-4 text-cyan-800"></i>
             <h3 className="font-semibold text-lg text-cyan-800">Unbeatable prices</h3>
             <p className="text-cyan-800 text-sm mt-2">
               For our materials and quality you won’t find better prices anywhere.
@@ -69,57 +60,52 @@ export default function About() {
 
           {/* Card 4 */}
           <div className="bg-gray-50 p-6 text-center rounded-lg shadow">
-            <div className="text-cyan-800 mb-4">
-              {/* Icon */}
-              <i className="fa-solid fa-seedling text-4xl"></i>
-            </div>
+            <i className="fa-solid fa-seedling text-4xl mb-4 text-cyan-800"></i>
             <h3 className="font-semibold text-lg text-cyan-800">Recycled packaging</h3>
             <p className="text-cyan-800 text-sm mt-2">
               We use 100% recycled to ensure our footprint is more manageable.
             </p>
           </div>
-          <div>
-      {/* Section Heading */}
-      <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-        Our Popular Products
-      </h2>
-
-      {/* Product Grid */}
-      <div className="grid grid-cols-1  gap-8">
-        {/* Product 1 */}
-        <div className="flex flex-col">
-          <img
-            src="/icons/popularsofa.jpeg"
-            alt="The Poplar suede sofa"
-            className="w-full h-48 object-cover mb-4 rounded-lg"
-          />
-          <h3 className="text-lg font-medium text-gray-800">The Poplar suede sofa</h3>
-          <p className="text-gray-600">$99.00</p>
-        </div>
-
-        {/* Product 2 */}
-        <div className="flex flex-col">
-          <img
-            src="/icons/dandychair.jpeg"
-            alt="The Dandy chair"
-            className="w-full h-72 object-cover mb-4 rounded-lg"
-          />
-          <h3 className="text-lg font-medium text-gray-800">The Dandy chair</h3>
-          <p className="text-gray-600">$99.00</p>
-        </div>
-
-        {/* Product 3 */}
-        <div className="flex flex-col">
-          <img
-            src="/icons/dandychair2.jpeg"
-            alt="The Dandy chair"
-            className="w-full h-64 object-cover mb-4 rounded-lg"
-          />
-          <h3 className="text-lg font-medium text-gray-800">The Dandy chair</h3>
-          <p className="text-gray-600">$99.00</p>
         </div>
       </div>
-    </div>
+
+      {/* Our Popular Products */}
+      <div className="lg:pl-52 lg:pr-52 py-12 px-4 bg-white">
+        <h2 className="text-2xl mt-8 font-bold text-gray-900 mb-8">Our Popular Products</h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {/* Product 1 */}
+          <div className="flex flex-col lg:col-span-2">
+            <img
+              src="/icons/popularsofa.jpeg"
+              alt="The Poplar suede sofa"
+              className="w-[75%] h-64 object-cover mb-4 rounded-lg"
+            />
+            <h3 className="text-lg font-medium text-gray-800 ">The Poplar suede sofa</h3>
+            <p className="text-gray-600">$99.00</p>
+          </div>
+
+          {/* Product 2 */}
+          <div className="flex flex-col">
+            <img
+              src="/icons/dandychair.jpeg"
+              alt="The Dandy chair"
+              className="w-60 lg:-ml-44 h-64 object-cover mb-4 rounded-lg"
+            />
+            <h3 className="text-lg font-medium text-gray-800 lg:-ml-44">The Dandy chair</h3>
+            <p className="text-gray-600 lg:-ml-44">$99.00</p>
+          </div>
+
+          {/* Product 3 */}
+          <div className="flex flex-col">
+            <img
+              src="/icons/dandychair2.jpeg"
+              alt="The Dandy chair"
+              className="w-60 h-64 object-cover mb-4 rounded-lg"
+            />
+            <h3 className="text-lg font-medium text-gray-800">The Dandy chair</h3>
+            <p className="text-gray-600">$99.00</p>
+          </div>
         </div>
       </div>
     </div>
