@@ -79,7 +79,7 @@ export default function About() {
             <img
               src="/icons/popularsofa.jpeg"
               alt="The Poplar suede sofa"
-              className="w-[75%] h-64 object-cover mb-4 rounded-lg"
+              className="lg:w-[75%] lg:h-72 object-cover mb-4 rounded-lg"
             />
             <h3 className="text-lg font-medium text-gray-800 ">The Poplar suede sofa</h3>
             <p className="text-gray-600">$99.00</p>
@@ -90,7 +90,7 @@ export default function About() {
             <img
               src="/icons/dandychair.jpeg"
               alt="The Dandy chair"
-              className="w-60 lg:-ml-44 h-64 object-cover mb-4 rounded-lg"
+              className="lg:w-60 lg:-ml-44 lg:h-72 object-cover mb-4 rounded-lg"
             />
             <h3 className="text-lg font-medium text-gray-800 lg:-ml-44">The Dandy chair</h3>
             <p className="text-gray-600 lg:-ml-44">$99.00</p>
@@ -101,7 +101,7 @@ export default function About() {
             <img
               src="/icons/dandychair2.jpeg"
               alt="The Dandy chair"
-              className="w-60 h-64 object-cover mb-4 rounded-lg"
+              className="lg:w-60 lg:h-72  object-cover mb-4 rounded-lg"
             />
             <h3 className="text-lg font-medium text-gray-800">The Dandy chair</h3>
             <p className="text-gray-600">$99.00</p>
