@@ -34,9 +34,9 @@ export default function About() {
           What Makes Our Brand Different
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:m-0 m-4">
           {/* Card 1 */}
-          <div className="bg-gray-50 p-8  text-center rounded-lg shadow">
+          <div className="bg-gray-50 p-8 text-center rounded-lg shadow">
             <i  className="text-4xl  text-cyan-800"><TbTruckDelivery /> </i>
             <h3 className="font-semibold text-lg text-cyan-700 lg:mt-2">Next day as standard</h3>
             <p className="text-cyan-800 text-md mt-2">

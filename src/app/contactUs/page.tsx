@@ -46,7 +46,7 @@ export default function contactUs(){
             type="text"
             id="name"
             placeholder="Abc"
-            className="mt-2 block w-full border border-black rounded-md focus:border-teal-500 focus:ring-teal-500"
+            className="mt-2 pl-2 block w-full border border-black rounded-md focus:border-teal-500 focus:ring-teal-500"
           />
         </div>
         <div>
@@ -55,7 +55,7 @@ export default function contactUs(){
             type="email"
             id="email"
             placeholder="Abc@def.com"
-            className="mt-2 block w-full border border-black rounded-md  focus:border-teal-500 focus:ring-teal-500"
+            className="mt-2 pl-2 block w-full border border-black rounded-md  focus:border-teal-500 focus:ring-teal-500"
           />
         </div>
         <div>
@@ -64,16 +64,15 @@ export default function contactUs(){
             type="text"
             id="subject"
             placeholder="This is an optional"
-            className="mt-2 block w-full border border-black rounded-md  focus:border-teal-500 focus:ring-teal-500"
+            className="mt-2 pl-2 block w-full border border-black rounded-md  focus:border-teal-500 focus:ring-teal-500"
           />
         </div>
         <div>
           <label htmlFor="message" className="block text-md font-bold text-gray-700">Message</label>
           <textarea
             id="message"
-            
             placeholder="Hi! I’d like to ask about"
-            className="mt-2  block w-full border border-black rounded-md focus:border-teal-500 focus:ring-teal-500"
+            className="mt-2 pl-2 block w-full border border-black rounded-md focus:border-teal-500 focus:ring-teal-500"
           ></textarea>
         </div>
         <button
