@@ -86,10 +86,10 @@ export default function contactUs(){
     </div>
   </div>
   <div>
-  <div className="bg-gray-100 py-16 lg:ml-48 lg:mr-44 mt-12 ">
+  <div className="bg-gray-100 py-16 lg:ml-48 lg:mr-44 mt-12">
   <div className="max-w-5xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-28 text-center">
    
-  <div className="flex items-center space-x-4">
+  <div className="flex items-center space-x-4 justify-center">
       <span className="text-4xl text-gray-700"><img src="/icons/cup.png" alt="cup" /></span>
       <div>
         <h3 className="text-lg font-bold text-black">High Quality</h3>
@@ -97,7 +97,7 @@ export default function contactUs(){
       </div>
     </div>
     
-    <div className="flex items-center space-x-4">
+    <div className="flex items-center space-x-4 justify-center">
       <span className="text-4xl text-gray-700"><img src="/icons/warranty.png" alt="warranty" /></span>
       <div>
         <h3 className="text-lg font-bold text-black">Warranty Protection</h3>
@@ -105,7 +105,7 @@ export default function contactUs(){
       </div>
     </div>
     
-    <div className="flex items-center space-x-4">
+    <div className="flex items-center space-x-4 justify-center">
       <span className="text-4xl text-gray-700"><img src="/icons/call.png" alt="call" /></span>
       <div>
         <h3 className="text-lg font-bold text-black">24 / 7 Support</h3>
