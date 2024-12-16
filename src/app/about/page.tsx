@@ -1,3 +1,7 @@
+import { TbTruckDelivery } from "react-icons/tb";
+import { IoIosCheckmarkCircleOutline } from "react-icons/io";
+import { GoCreditCard } from "react-icons/go";
+import { RiSeedlingLine } from "react-icons/ri";
 export default function About() {
   return (
     <div>
@@ -25,44 +29,44 @@ export default function About() {
       </div>
 
       {/* Cards Section */}
-      <div className="lg:pl-52 lg:pr-52 py-12 px-4 bg-white">
+      <div className="lg:pl-52 lg:pr-52 py-10 px-4 bg-white">
         <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-10">
           What Makes Our Brand Different
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Card 1 */}
-          <div className="bg-gray-50 p-6 text-center rounded-lg shadow">
-            <i className="fa-solid fa-truck text-4xl mb-4 text-cyan-800"></i>
-            <h3 className="font-semibold text-lg text-cyan-700">Next day as standard</h3>
-            <p className="text-cyan-800 text-sm mt-2">
+          <div className="bg-gray-50 p-8  text-center rounded-lg shadow">
+            <i  className="text-4xl  text-cyan-800"><TbTruckDelivery /> </i>
+            <h3 className="font-semibold text-lg text-cyan-700 lg:mt-2">Next day as standard</h3>
+            <p className="text-cyan-800 text-md mt-2">
               Order before 3pm and get your order the next day as standard.
             </p>
           </div>
 
           {/* Card 2 */}
           <div className="bg-gray-50 p-6 text-center rounded-lg shadow">
-            <i className="fa-solid fa-check-circle text-4xl mb-4 text-cyan-800"></i>
-            <h3 className="font-semibold text-lg text-cyan-800">Made by true artisans</h3>
-            <p className="text-cyan-800 text-sm mt-2">
+            <i className="text-4xl mb-4 text-cyan-800"><IoIosCheckmarkCircleOutline /></i>
+            <h3 className="font-semibold text-lg text-cyan-700 lg:mt-2">Made by true artisans</h3>
+            <p className="text-cyan-800 text-md mt-2">
               Handmade crafted goods made with real passion and craftsmanship.
             </p>
           </div>
 
           {/* Card 3 */}
           <div className="bg-gray-50 p-6 text-center rounded-lg shadow">
-            <i className="fa-solid fa-tags text-4xl mb-4 text-cyan-800"></i>
-            <h3 className="font-semibold text-lg text-cyan-800">Unbeatable prices</h3>
-            <p className="text-cyan-800 text-sm mt-2">
+            <i className="text-4xl mb-4 text-cyan-800"><GoCreditCard /></i>
+            <h3 className="font-semibold text-lg text-cyan-700 lg:mt-2">Unbeatable prices</h3>
+            <p className="text-cyan-800 text-md mt-2">
               For our materials and quality you won’t find better prices anywhere.
             </p>
           </div>
 
           {/* Card 4 */}
           <div className="bg-gray-50 p-6 text-center rounded-lg shadow">
-            <i className="fa-solid fa-seedling text-4xl mb-4 text-cyan-800"></i>
-            <h3 className="font-semibold text-lg text-cyan-800">Recycled packaging</h3>
-            <p className="text-cyan-800 text-sm mt-2">
+            <i className="text-4xl mb-4 text-cyan-800"><RiSeedlingLine /></i>
+            <h3 className="font-semibold text-lg text-cyan-700 lg:mt-2">Recycled packaging</h3>
+            <p className="text-cyan-800 text-md mt-2">
               We use 100% recycled to ensure our footprint is more manageable.
             </p>
           </div>
