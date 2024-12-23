@@ -1,6 +1,6 @@
 export default function ProductCollage() {
     return (
-      <div className="flex flex-col md:flex-row items-center md:items-start pt-16  p-2 gap-4 lg:pl-24 lg:pr-16">
+      <div className="flex flex-col md:flex-row items-center md:items-start px-10  p-2 gap-4 py-8">
         {/* Left Section */}
         <div className="relative">
           <img

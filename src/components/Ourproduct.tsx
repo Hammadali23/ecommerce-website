@@ -67,7 +67,7 @@ export default function Ourproduct() {
     ];
   
     return (
-      <div className="py-10 p-2 lg:ml-20 lg:mr-14">
+      <div className="py-6  px-4">
         <h2 className="text-center text-3xl font-bold mb-8 text-black mt-8">Our Products</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {products.map((product) => (
