@@ -8,15 +8,15 @@ export default function ShopPage() {
     ];
   
     return (
-      <div className="font-sans lg:p-12 p-4 bg-white">
+      <div className="font-sans  bg-white lg:px-36 lg:py-16 p-6">
         {/* Top Product Section */}
-        <div className="flex flex-col md:flex-row items-center gap-8 lg:gap-16 mb-12 lg:pl-40 lg:pr-40 pt-6">
+        <div className="flex flex-col md:flex-row items-center gap-8 lg:gap-32   ">
             <img
             src="/icons/chairproduct2.jpeg"
             alt="Library Stool Chair"
             className="lg:w-[40%] lg:h-96 object-cover rounded-lg shadow-md order-1 md:order-1 "
           />
-          <div className="space-y-4 order-2 md:order-2 text-center md:text-left lg:pl-12">
+          <div className="space-y-4 order-2 md:order-2 text-center md:text-left ">
             <h1 className="lg:text-5xl text-4xl font-bold text-black">Library Stool <br /> Chair</h1>
             <p className="text-white bg-cyan-600 inline-block p-1 rounded-full font-semibold">$20.00 USD</p>
             <p className="text-gray-600 max-w-md pt-4 pb-2 text-xl">
@@ -30,8 +30,8 @@ export default function ShopPage() {
   
         {/* Featured Products Section */}
         <div>
-          <h2 className="text-xl font-bold mb-6 text-black lg:pl-36 lg:ml-2 pt-4">FEATURED PRODUCTS</h2>
-          <div className="grid grid-cols-2 md:grid-cols-5 lg:pl-36 lg:pr-40 gap-4">
+          <h2 className="text-xl font-bold  text-black py-12 pt-16">FEATURED PRODUCTS</h2>
+          <div className="grid grid-cols-2 md:grid-cols-5  gap-4">
             {/* Product Cards */}
             {featuredProducts.map((product) => (
               <div key={product.id} className="text-center rounded-lg  bg-white ">
