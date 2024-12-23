@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="w-full bg-white">
       {/* Hero Section */}
-      <div className="max-w-7xl mx-auto  sm:px-6">
+      <div className="max-w-7xl mx-auto">
         <div className="bg-gray-200 grid grid-cols-1 md:grid-cols-2 gap-8 items-center lg:p-28 p-12 rounded-xl">
           {/* Left Content */}
           <div className="space-y-4">
@@ -35,7 +35,7 @@ export default function Home() {
 
         {/* Partners Section */}
         <div className="bg-white">
-          <div className="py-16">
+          <div className="py-14 px-6">
             <div className="flex flex-wrap items-center justify-between gap-8">
               <img src="/icons/zapier.png" alt="Zapier" className="h-10" />
               <img src="/icons/pipedrive.png" alt="Pipedrive" className="h-8" />
@@ -58,7 +58,7 @@ export default function Home() {
           </div>
 
           {/* Product Collage Section */}
-          <div>
+          <div className="px-4">
             <ProductCollage />
           </div>
 

@@ -1,6 +1,6 @@
 export default function ProductCollage() {
     return (
-      <div className="flex flex-col md:flex-row items-center md:items-start px-10  p-2 gap-4 py-8">
+      <div className="flex flex-col md:flex-row items-center md:items-start lg:px-8 px-4  p-2 gap-4 py-8">
         {/* Left Section */}
         <div className="relative">
           <img
@@ -9,7 +9,7 @@ export default function ProductCollage() {
             className="w-full h-full object-cover  "
           />
           {/* Vertical Text */}
-          <div className="absolute -left-52 top-1/2 transform -rotate-90 text-2xl text-gray-700">
+          <div className="absolute lg:-left-52 -left-32 top-1/2 transform -rotate-90 lg:text-2xl text-gray-700">
             Explore New and Popular Styles
           </div>
         </div>
