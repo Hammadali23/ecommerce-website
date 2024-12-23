@@ -93,9 +93,9 @@ const ProductPage = () => {
   ];
 
   return (
-    <div className="bg-white lg:px-48 py-6">
-      <h1 className="text-2xl font-bold mb-6 text-black p-2 pl-6">All Products</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div className="bg-white  ">
+      <h1 className="text-2xl font-bold text-black  pl-6 lg:px-[9%] py-8">All Products</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:px-[8%]">
         {products.map((product) => (
           <div
             key={product.id}
