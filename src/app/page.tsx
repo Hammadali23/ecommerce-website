@@ -5,9 +5,9 @@ import Ourproduct from "../components/Ourproduct";
 
 export default function Home() {
   return (
-    <div className="w-full">
+    <div className="w-full bg-white">
       {/* Hero Section */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 ">
+      <div className="max-w-7xl mx-auto  sm:px-6">
         <div className="bg-gray-200 grid grid-cols-1 md:grid-cols-2 gap-8 items-center lg:p-28 p-12 rounded-xl">
           {/* Left Content */}
           <div className="space-y-4">
