@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div className="bg-white">
       {/* About Us Section */}
-      <div className="container mx-auto  px-4 sm:px-6 lg:px-8 xl:px-16 pt-14">
+      <div className="container mx-auto  px-4  lg:px-6 py-8">
         <div className="flex flex-col md:flex-row gap-8">
           <div className="w-full md:w-1/2 bg-cyan-800 text-white p-6 md:p-8 rounded-lg  ">
             <h2 className="text-xl sm:text-2xl font-bold mb-4">About Us - Comforty</h2>
@@ -32,7 +32,7 @@ export default function About() {
       </div>
 
       {/* Cards Section */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 xl:px-16 py-12 sm:py-16">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-6  py-12 sm:py-16">
         <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center text-gray-900 mb-8 sm:mb-12">
           What Makes Our Brand Different
         </h2>
@@ -85,25 +85,25 @@ export default function About() {
       </div>
 
       {/* Our Popular Products */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 xl:px-16 py-12">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-6 py-12">
         <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-6 sm:mb-8">
           Our Popular Products
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 ">
           {/* Product 1 */}
-          <div className="md:col-span-2 text-center">
+          <div className="md:col-span-2 text-start">
             <img
               src="/icons/popularsofa.jpeg"
               alt="The Poplar suede sofa"
-              className="w-full aspect-[16/7.7]   rounded-lg mb-4"
+              className="w-full aspect-[16/7.7] rounded-lg mb-4"
             />
             <h3 className="text-lg font-medium text-gray-800">The Poplar suede sofa</h3>
             <p className="text-gray-600">$99.00</p>
           </div>
 
           {/* Product 2 */}
-          <div className="text-center">
+          <div className="lg:text-start">
             <img
               src="/icons/dandychair.jpeg"
               alt="The Dandy chair"
@@ -114,7 +114,7 @@ export default function About() {
           </div>
 
           {/* Product 3 */}
-          <div className="text-center">
+          <div className="text-start">
             <img
               src="/icons/dandychair2.jpeg"
               alt="The Dandy chair"

@@ -5,7 +5,7 @@ const FAQSection = () => {
   const [open, setOpen] = useState(false); 
 
   return (
-    <div className="py-10 px-4 lg:px-48  bg-white">
+    <div className="py-10 px-4 lg:px-32  bg-white">
       {/* Heading */}
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold text-gray-800 mb-4">Questions Looks Here</h2>
