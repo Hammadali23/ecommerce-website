@@ -3,8 +3,8 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { MdWatchLater } from "react-icons/md";
 export default function contactUs(){
     return(
-        <div className="bg-white mx-auto px-4 py-12">
-  <h2 className="text-2xl md:text-4xl font-bold text-center mb-4 text-black  lg:pl-96 lg:pr-96">Get In Touch With Us</h2>
+        <div className="bg-white mx-auto px-4 pt-8 ">
+  <h2 className="text-2xl md:text-4xl font-bold text-center mb-4 text-black ">Get In Touch With Us</h2>
   <p className="text-gray-600 text-center text-md mb-8  lg:pl-96 lg:pr-96">
     For More Information About Our Product & Services. Please Feel Free To Drop Us An Email.
     Our Staff Always Be There To Help You Out. Do Not Hesitate!
