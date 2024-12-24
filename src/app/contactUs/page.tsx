@@ -77,7 +77,7 @@ export default function contactUs(){
         </div>
         <button
           type="submit"
-          className="w-44 bg-teal-500 text-white py-2 px-4 rounded-md hover:bg-teal-600 f"
+          className="w-44 bg-teal-600 text-white py-2 px-4 rounded-md hover:bg-teal-500 f"
         >
           Submit
         </button>

@@ -18,11 +18,11 @@ export default function ShopPage() {
           />
           <div className="space-y-4 order-2 md:order-2 text-center md:text-left ">
             <h1 className="lg:text-5xl text-4xl font-bold text-black">Library Stool <br /> Chair</h1>
-            <p className="text-white bg-cyan-600 inline-block p-1 rounded-full font-semibold">$20.00 USD</p>
+            <p className="text-white bg-teal-600 inline-block p-1 rounded-full font-semibold">$20.00 USD</p>
             <p className="text-gray-600 max-w-md pt-4 pb-2 text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt erat enim. Lorem ipsum dolor sit amet, consectetur adipiscing
             </p>
-            <button className="bg-cyan-600 text-white px-4 py-2 rounded hover:bg-cyan-500 transition">
+            <button className="bg-teal-600 text-white px-4 py-2 rounded hover:bg-teal-500 transition">
               🛒 Add To Cart
             </button>
           </div>

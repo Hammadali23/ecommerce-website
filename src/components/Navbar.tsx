@@ -2,24 +2,26 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation"; 
+import { useRouter } from "next/navigation";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [cartItemCount, setCartItemCount] = useState(0);
   const router = useRouter();
 
-  // Update cart count from localStorage
   useEffect(() => {
     const updateCartCount = () => {
-      const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+      // Validate localStorage.getItem and parse only if value is not null
+      const cartItemsString = localStorage.getItem("cartItems");
+      const cartItems = cartItemsString ? JSON.parse(cartItemsString) : [];
       setCartItemCount(cartItems.length);
     };
 
     updateCartCount();
-    window.addEventListener('storage', updateCartCount);
-    
-    return () => window.removeEventListener('storage', updateCartCount);
+    window.addEventListener("storage", updateCartCount);
+
+    // Cleanup listener to prevent memory leaks
+    return () => window.removeEventListener("storage", updateCartCount);
   }, []);
 
   const toggleMenu = () => {
@@ -31,7 +33,7 @@ const Header = () => {
   };
 
   const handleCartClick = () => {
-    router.push('/cart');
+    router.push("/cart");
   };
 
   return (
