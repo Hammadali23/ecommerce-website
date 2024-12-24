@@ -38,9 +38,9 @@ const FAQSection = () => {
                 onClick={() => setOpen(!open)}
               >
                 {open ? (
-                  <span className="text-3xl font-bold">-</span>
+                  <span className="text-3xl font-bold text-teal-600">-</span>
                 ) : (
-                  <span className="text-3xl font-bold">+</span>
+                  <span className="text-3xl font-bold text-teal-600">+</span>
                 )}
               </button>
             </div>
