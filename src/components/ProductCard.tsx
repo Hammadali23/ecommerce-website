@@ -5,7 +5,7 @@ type Product = {
   image: string;
   isNew?: boolean;
   onSale?: boolean;
-  originalPrice?: number; // Optional, for showing discounted price
+  originalPrice?: number; 
 };
 
 export default function ProductCard({ product }: { product: Product }) {

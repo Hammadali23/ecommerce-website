@@ -1,11 +1,11 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client"
 import React, { useState, useEffect } from "react";
 
 const ProductPage = () => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [cart, setCart] = useState<any[]>([]);
 
-  // Load cart items from localStorage on component mount
+  
   useEffect(() => {
     const storedCart = localStorage.getItem("cartItems");
     if (storedCart) {
@@ -13,11 +13,11 @@ const ProductPage = () => {
     }
   }, []);
 
-  // Update localStorage whenever the cart changes
   useEffect(() => {
     localStorage.setItem("cartItems", JSON.stringify(cart));
   }, [cart]);
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const addToCart = (product:any) => {
     setCart((prevCart) => [...prevCart, product]);
     alert(`${product.name} has been added to the cart!`);
