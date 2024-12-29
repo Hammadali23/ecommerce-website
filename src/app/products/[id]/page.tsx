@@ -1,4 +1,4 @@
- "use client";
+"use client";
 
 import { useParams } from "next/navigation";
 import { useState, useEffect } from "react";
@@ -19,13 +19,29 @@ const ProductDetailPage = () => {
   const id = Array.isArray(params.id) ? params.id[0] : params.id; // Handle string | string[]
 
   const [product, setProduct] = useState<Product | null>(null);
+  const [cart, setCart] = useState<Product[]>([]);
 
+  // Load cart from localStorage when the component mounts
   useEffect(() => {
+    const savedCart = localStorage.getItem("cart");
+    if (savedCart) {
+      setCart(JSON.parse(savedCart));
+    }
+
     if (id) {
       const foundProduct = data.find((prod) => prod.id === parseInt(id, 10));
       setProduct(foundProduct || null);
     }
   }, [id]);
+
+  // Handle adding product to the cart
+  const addToCart = (product: Product, e: React.MouseEvent) => {
+    e.preventDefault();
+    const updatedCart = [...cart, product];
+    setCart(updatedCart);
+    localStorage.setItem("cart", JSON.stringify(updatedCart));
+    alert(`${product.name} has been added to the cart!`);
+  };
 
   if (!product) {
     return <div className="text-center mt-8">Product not found!</div>;
@@ -72,7 +88,11 @@ const ProductDetailPage = () => {
               durability, making it a perfect addition to your home or office.
             </p>
 
-            <button className="bg-teal-600 text-white py-3 px-6 rounded-lg hover:bg-teal-700">
+            {/* Add to Cart Button */}
+            <button
+              onClick={(e) => addToCart(product, e)}
+              className="bg-teal-600 text-white py-3 px-6 rounded-lg hover:bg-teal-700"
+            >
               Add to Cart
             </button>
           </div>
