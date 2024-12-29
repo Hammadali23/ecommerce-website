@@ -28,10 +28,10 @@ export default function ProductPage() {
 
   return (
     <div className="bg-white">
-      <h1 className="text-2xl font-bold text-black pl-6 lg:px-[9%] py-8">
+      <h1 className="text-2xl font-bold text-black pl-6 lg:px-[9%]  py-6">
         All Products
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:px-[8%]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:px-[8%] px-2 pb-16">
         {products.map((product) => (
           <Link href={`/products/${product.id}`} key={product.id}>
             <div className="block hover:shadow-lg transition-shadow">

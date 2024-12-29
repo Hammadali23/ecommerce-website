@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="w-full bg-white">
       {/* Hero Section */}
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto lg:px-4">
         <div className="bg-gray-200 grid grid-cols-1 md:grid-cols-2 gap-8 items-center lg:p-28 p-12 rounded-xl">
           {/* Left Content */}
           <div className="space-y-4">
