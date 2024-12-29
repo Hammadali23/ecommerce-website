@@ -11,7 +11,7 @@ const Header = () => {
 
   useEffect(() => {
     const updateCartCount = () => {
-      // Validate localStorage.getItem and parse only if value is not null
+      
       const cartItemsString = localStorage.getItem("cartItems");
       const cartItems = cartItemsString ? JSON.parse(cartItemsString) : [];
       setCartItemCount(cartItems.length);
@@ -130,8 +130,8 @@ const Header = () => {
             <Link href="/shop" onClick={closeMenu} className="block text-gray-700 hover:text-teal-600">
               Shop
             </Link>
-            <Link href="/product" onClick={closeMenu} className="block text-gray-700 hover:text-teal-600">
-              Product
+            <Link href="/products" onClick={closeMenu} className="block text-gray-700 hover:text-teal-600">
+              Products
             </Link>
             <Link href="/about" onClick={closeMenu} className="block text-gray-700 hover:text-teal-600">
               About
