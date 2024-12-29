@@ -36,15 +36,30 @@ export default function Home() {
         {/* Partners Section */}
         <div className="bg-white">
           <div className="py-14 px-6">
-            <div className="flex flex-wrap items-center justify-between gap-8">
-              <img src="/icons/zapier.png" alt="Zapier" className="h-10" />
-              <img src="/icons/pipedrive.png" alt="Pipedrive" className="h-8" />
-              <img src="/icons/cibbank.png" alt="CIB Bank" className="h-16" />
-              <img src="/icons/z.png" alt="z" className="h-16" />
-              <img src="/icons/burnt.png" alt="Burnt Toast" className="h-20" />
-              <img src="/icons/panda.png" alt="Panda" className="h-8" />
-              <img src="/icons/moz.png" alt="moz" className="h-6" />
-            </div>
+          <div className="flex flex-wrap items-center justify-between gap-8">
+            <a href="https://www.zapier.com" target="_blank" rel="noopener noreferrer">
+            <img src="/icons/zapier.png" alt="Zapier" className="h-10" />
+            </a>
+            <a href="https://www.pipedrive.com" target="_blank" rel="noopener noreferrer">
+            <img src="/icons/pipedrive.png" alt="Pipedrive" className="h-8" />
+            </a>
+            <a href="https://www.cib.com" target="_blank" rel="noopener noreferrer">
+            <img src="/icons/cibbank.png" alt="CIB Bank" className="h-16" />
+            </a>
+            <a href="https://www.z.com" target="_blank" rel="noopener noreferrer">
+            <img src="/icons/z.png" alt="z" className="h-16" />
+            </a>
+            <a href="https://www.burnttoast.com" target="_blank" rel="noopener noreferrer">
+            <img src="/icons/burnt.png" alt="Burnt Toast" className="h-20" />
+            </a>
+            <a href="https://www.panda.com" target="_blank" rel="noopener noreferrer">
+            <img src="/icons/panda.png" alt="Panda" className="h-8" />
+            </a>
+            <a href="https://www.moz.com" target="_blank" rel="noopener noreferrer">
+           <img src="/icons/moz.png" alt="moz" className="h-6" />
+           </a>
+           </div>
+
           </div>
 
           {/* Features Section */}
