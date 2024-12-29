@@ -21,7 +21,7 @@ export default function Footer() {
                 Cras egestas purus.
               </p>
               <div className="flex space-x-4 mt-8 text-xl">
-                <a href="#" className="text-gray-500 hover:text-teal-500">
+                <a href="https://www.facebook.com/" className="text-gray-500 hover:text-teal-500">
                   <FaFacebook />
                 </a>
                 <a href="#" className="text-gray-500 hover:text-teal-500">

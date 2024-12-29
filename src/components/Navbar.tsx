@@ -44,7 +44,7 @@ const Header = () => {
           <p className="truncate">✔️ Free Shipping On All Orders Over $50</p>
           <div className="flex items-center space-x-2 sm:space-x-4">
             <span>Eng ▼</span>
-            <a href="/pages" className="hover:underline">FAQs</a>
+            <a href="/faqs" className="hover:underline">FAQs</a>
             <a href="#" className="hover:underline">Need Help</a>
           </div>
         </div>
@@ -132,9 +132,6 @@ const Header = () => {
             </Link>
             <Link href="/product" onClick={closeMenu} className="block text-gray-700 hover:text-teal-600">
               Product
-            </Link>
-            <Link href="/pages" onClick={closeMenu} className="block text-gray-700 hover:text-teal-600">
-              Pages
             </Link>
             <Link href="/about" onClick={closeMenu} className="block text-gray-700 hover:text-teal-600">
               About

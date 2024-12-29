@@ -15,8 +15,8 @@ export default function Home() {
             <h1 className="text-3xl md:text-4xl font-bold text-gray-800 leading-tight">
               Best Furniture <br /> Collection For Your <br />Interior.
             </h1>
-            <button className="bg-teal-600 text-white px-6 py-3 rounded-md flex items-center space-x-2 hover:bg-teal-700 transition">
-              <span>Shop Now</span>
+            <button className="bg-teal-600 text-lg text-white px-6 py-3 rounded-md flex items-center space-x-2 hover:bg-teal-700 transition">
+              <span><a href="/products">Shop Now</a></span>
               <span>→</span>
             </button>
           </div>
