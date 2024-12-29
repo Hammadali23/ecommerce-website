@@ -24,16 +24,16 @@ export default function Footer() {
                 <a href="https://www.facebook.com/" className="text-gray-500 hover:text-teal-500">
                   <FaFacebook />
                 </a>
-                <a href="#" className="text-gray-500 hover:text-teal-500">
+                <a href="https://twitter.com/i/flow/signup" className="text-gray-500 hover:text-teal-500">
                 <GrTwitter />
                 </a>
-                <a href="#" className="text-gray-500 hover:text-teal-500">
+                <a href="https://www.instagram.com/" className="text-gray-500 hover:text-teal-500">
                 <FaInstagram />
                 </a>
-                <a href="#" className="text-gray-500 hover:text-teal-500">
+                <a href="https://www.pinterest.com/" className="text-gray-500 hover:text-teal-500">
                 <FaPinterest />
                 </a>
-                <a href="#" className="text-gray-500 hover:text-teal-500">
+                <a href="https://www.youtube.com/" className="text-gray-500 hover:text-teal-500">
                 <FaYoutube />
                 </a>
               </div>
