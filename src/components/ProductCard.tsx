@@ -21,9 +21,9 @@ const ProductCard = ({ product }: ProductCardProps) => {
       <img
         src={product.image}
         alt={product.name}
-        className="w-full md:h-52 object-cover rounded-lg"
+        className="w-full md:h-72 object-cover rounded-lg"
       />
-      <div className="mt-4 text-center">
+      <div className="mt-4">
         <h3 className="text-lg text-start text-black">{product.name}</h3>
         <div className="text-md text-gray-600 mt-1 text-start font-bold">
           {product.onSale && product.originalPrice ? (
