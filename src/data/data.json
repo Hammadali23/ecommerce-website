@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "name": "Library Stool Chair",
+      "price": 20,
+      "image": "/icons/chairproduct.jpeg",
+      "isNew": true
+    },
+    {
+      "id": 2,
+      "name": "Library Stool Chair",
+      "price": 20,
+      "originalPrice": 30,
+      "image": "/icons/chairproduct2.jpeg",
+      "onSale": true
+    },
+    {
+      "id": 3,
+      "name": "Library Stool Chair",
+      "price": 20,
+      "image": "/icons/chairproduct3.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Library Stool Chair",
+      "price": 20,
+      "image": "/icons/chairproduct4.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Library Stool Chair",
+      "price": 20,
+      "image": "/icons/category2.jpeg",
+      "isNew": true
+    },
+    {
+      "id": 6,
+      "name": "Library Stool Chair",
+      "price": 20,
+      "originalPrice": 30,
+      "image": "/icons/chairproduct5.jpeg",
+      "onSale": true
+    },
+    {
+      "id": 7,
+      "name": "Library Stool Chair",
+      "price": 20,
+      "image": "/icons/chairproduct6.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Library Stool Chair",
+      "price": 20,
+      "image": "/icons/chairproduct.jpeg"
+    },
+    {
+      "id": 9,
+      "name": "Library Stool Chair",
+      "price": 20,
+      "image": "/icons/category1.jpeg",
+      "isNew": true
+    },
+    {
+      "id": 10,
+      "name": "Library Stool Chair",
+      "price": 20,
+      "image": "/icons/chairproduct2.jpeg",
+      "onSale": true
+    },
+    {
+      "id": 11,
+      "name": "Library Stool Chair",
+      "price": 20,
+      "image": "/icons/chairproduct3.jpeg"
+    },
+    {
+      "id": 12,
+      "name": "Library Stool Chair",
+      "price": 20,
+      "image": "/icons/category3.png"
+    }
+  ]
+  
