@@ -68,7 +68,7 @@ const ProductDetailPage = () => {
               </span>
             )}
 
-            <h1 className="text-3xl font-bold mb-4">{product.name}</h1>
+            <h1 className="text-3xl font-bold text-black mb-4">{product.name}</h1>
 
             {product.onSale && product.originalPrice ? (
               <div className="text-xl font-bold text-red-600 mb-4">

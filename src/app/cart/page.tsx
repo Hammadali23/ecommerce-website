@@ -37,12 +37,12 @@ export default function CartPage() {
   };
 
   return (
-    <div className=" bg-white max-w-6xl mx-auto p-6">
+    <div className=" bg-white max-w-7xl mx-auto p-6">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Left side - Cart Items */}
         <div className="lg:col-span-2">
           <div className="flex justify-between items-center mb-6">
-            <h1 className="text-2xl font-semibold">Bag</h1>
+            <h1 className="text-2xl font-semibold text-black">Bag</h1>
             <Link href="/products" className="text-teal-600 hover:underline">
               Continue Shopping
             </Link>
@@ -52,7 +52,7 @@ export default function CartPage() {
             <div className="text-center py-12">
               <p className="text-gray-500 mb-4">Your cart is empty</p>
               <Link href="/products">
-                <button className="px-6 py-2 border border-gray-300 rounded-md hover:bg-gray-50">
+                <button className="px-6 py-2 border border-gray-300 rounded-md hover:bg-gray-50 text-black">
                   Start Shopping
                 </button>
               </Link>
@@ -94,7 +94,7 @@ export default function CartPage() {
         {cart.length > 0 && (
           <div className="lg:col-span-1">
             <div className="bg-white border border-gray-200 rounded-lg p-6 sticky top-4">
-              <h2 className="text-xl font-semibold mb-4">Summary</h2>
+              <h2 className="text-xl font-semibold mb-4 text-black">Summary</h2>
               <div className="space-y-4">
                 <div className="flex justify-between">
                   <span className="text-gray-600">Subtotal</span>
@@ -105,7 +105,7 @@ export default function CartPage() {
                   <span className="text-gray-600">Free</span>
                 </div>
                 <div className="border-t border-gray-200 pt-4">
-                  <div className="flex justify-between font-semibold">
+                  <div className="flex justify-between font-semibold text-black">
                     <span>Total</span>
                     <span>${total.toFixed(2)}</span>
                   </div>
