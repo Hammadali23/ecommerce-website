@@ -5,7 +5,7 @@ export interface Product {
     price: number;
     image: string;
     isNew?: boolean;
-    onSale?: boolean;
+    onSale?: boolean
     originalPrice?: number;
   }
   

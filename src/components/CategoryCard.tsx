@@ -7,7 +7,7 @@ type Category = {
   
   export default function CategoryCard({ category }: { category: Category }) {
     return (
-      <div className="relative group cursor-pointer bg-white shadow rounded-lg overflow-hidden">
+      <div className="relative group  cursor-pointer bg-white shadow rounded-lg overflow-hidden">
         {/* Category Image */}
         <img
           src={category.image}

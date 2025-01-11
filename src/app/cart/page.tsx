@@ -37,13 +37,13 @@ export default function CartPage() {
   };
 
   return (
-    <div className=" bg-white max-w-7xl mx-auto p-6">
+    <div className=" bg-white max-w-8xl lg:px-36 p-6">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Left side - Cart Items */}
         <div className="lg:col-span-2">
           <div className="flex justify-between items-center mb-6">
-            <h1 className="text-2xl font-semibold text-black">Bag</h1>
-            <Link href="/products" className="text-teal-600 hover:underline">
+            <h1 className="text-3xl font-semibold text-black">Bag</h1>
+            <Link href="/products" className="text-white hover:bg-teal-500 bg-teal-600 p-1">
               Continue Shopping
             </Link>
           </div>
